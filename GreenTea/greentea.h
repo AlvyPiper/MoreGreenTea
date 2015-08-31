@@ -92,10 +92,10 @@ namespace GreenTea //okay, this namespace has to be placed in every file as "usi
 		extern IClientEntityList			*entitylist; //cl::entitylist
 		extern IVEngineClient				*engine;
 		extern IBaseClientDLL				*client;
-		extern IEngineTrace					*enginetrace;
+		extern IEngineTrace				*enginetrace;
 		extern IVModelInfoClient			*modelinfo;
 		extern vgui::ISurface				*surface;
-		extern vgui::IPanel					*panel;
+		extern vgui::IPanel				*panel;
 	}
 
 	namespace hook
