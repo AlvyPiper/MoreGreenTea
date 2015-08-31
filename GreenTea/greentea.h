@@ -85,7 +85,7 @@
 #pragma comment( lib, "mathlib.lib" )
 #pragma comment( lib, "vstdlib.lib" )
 
-namespace GreenTea //okay, this is namespace has to be placed in every file as "using namespace GreenTea" (mainly cpp files).
+namespace GreenTea //okay, this namespace has to be placed in every file as "using namespace GreenTea" (mainly cpp files).
 {
 	namespace cl
 	{
