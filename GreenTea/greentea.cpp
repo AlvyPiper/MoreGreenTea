@@ -37,7 +37,7 @@ void greenteabegin()
 	CreateInterfaceFn engineinterface = (CreateInterfaceFn) GetProcAddress(GetModuleHandleA("engine.dll"), "CreateInterface");
 	CreateInterfaceFn clientinterface = (CreateInterfaceFn) GetProcAddress(GetModuleHandleA("client.dll"), "CreateInterface");
 
-	cl::enginetrace = (IEngineTrace*) engineinterface("EngineTraceClient004", 0); //interface versions can be found in IDA or OllyDbg using string search.
+	cl::enginetrace = (IEngineTrace*) engineinterface("EngineTraceClient004", 0); //interface versions can be found in IDA or OllyDbg using string search. pop open client.dll and search for the interface.
 	cl::panel = (IPanel*) vgui2interface("VGUI_Panel009", 0);
 	cl::surface = (ISurface*) vguimatsurfaceinterface("VGUI_Surface031", 0);
 	cl::engine = (IVEngineClient*) engineinterface("VEngineClient013", 0);
