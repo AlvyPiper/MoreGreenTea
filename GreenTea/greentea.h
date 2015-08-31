@@ -16,7 +16,7 @@
 #define CLIENT_DLL
 #define WIN32_LEAN_AND_MEAN
 
-/* Includes */
+//includes
 #include <windows.h>
 #include <string>
 #include <iostream>
