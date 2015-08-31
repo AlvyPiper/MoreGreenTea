@@ -12,7 +12,7 @@ vgui::IPanel				*cl::panel		= 0;
 
 typedef void(__thiscall *PaintTraverseFn)(void*, unsigned int, bool, bool); //create a typedef for the original paint traverse
 PaintTraverseFn org_painttraverse = 0; //original call
-void __fastcall hook::painttraverse(void* thishook, void*, unsigned int vguipanel, bool forcerepaint, bool allowforce) //pass ECX and EDX registers to the first 2 arguments
+void __fastcall hook::painttraverse(void* thishook, void*, unsigned int vguipanel, bool forcerepaint, bool allowforce) //pass ECX and EDX registers to the first 2 arguments. you could use the stdcall calling convention for this, if you wanted.
 {
 	org_painttraverse(thishook, vguipanel, forcerepaint, allowforce); //call the original every frame, we would get a blackscreen otherwise
 
