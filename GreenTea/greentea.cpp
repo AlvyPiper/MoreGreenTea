@@ -3,12 +3,12 @@
 using namespace GreenTea;
 
 IClientEntityList			*cl::entitylist		= 0; //we extern'd our interfaces, so we have to actually call them here and setup interfaces
-IVEngineClient				*cl::engine			= 0;
-IBaseClientDLL				*cl::client			= 0;
+IVEngineClient				*cl::engine		= 0;
+IBaseClientDLL				*cl::client		= 0;
 IEngineTrace				*cl::enginetrace	= 0;
 IVModelInfoClient			*cl::modelinfo		= 0;	
 vgui::ISurface				*cl::surface		= 0;
-vgui::IPanel				*cl::panel			= 0;
+vgui::IPanel				*cl::panel		= 0;
 
 typedef void(__thiscall *PaintTraverseFn)(void*, unsigned int, bool, bool); //create a typedef for the original paint traverse
 PaintTraverseFn org_painttraverse = 0; //original call
