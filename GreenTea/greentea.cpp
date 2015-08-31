@@ -1,3 +1,14 @@
+/*
+	Name: GreenTea
+	Author: Alvy Piper (alvypiper@nikolaszorko.sexy)
+	Copyright: 2015
+	Usage: A simple base to help people who have no clue where to start.
+	Using content created by: Oubliette, Dude719, and Valve.
+	Any content creator that wants their work removed can contact me at my contact email.
+	
+	Feel free to redistribute, modify, and share. Please give credit where it is due, though.
+*/
+
 #include "greentea.h"
 
 using namespace GreenTea;
