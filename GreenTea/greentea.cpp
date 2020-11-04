@@ -1,6 +1,6 @@
 /*
 	Name: GreenTea
-	Author: Alvy Piper (alvypiper@nikolaszorko.sexy)
+	Author: Alvy Piper <alvycat@protonmail.com>
 	Copyright: 2015
 	Usage: A simple base to help people who have no clue where to start.
 	Using content created by: Oubliette, Dude719, and Valve.
